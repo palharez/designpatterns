@@ -16,7 +16,7 @@
   - [ ] Flyweight
   - [ ] Proxy
 - Behavioral:
-  - [ ] Chain of Responsibility
+  - [X] Chain of Responsibility
   - [ ] Command
   - [ ] Interpreter
   - [ ] Iterator
