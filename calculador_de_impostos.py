@@ -3,8 +3,8 @@ from impostos import ICMS, ISS
 
 class CalculadorDeImpostos(object):
 
-  def realiza_calculo(self, orcamento, imposto):
-      return imposto.calcula(orcamento)
+    def realiza_calculo(self, orcamento, imposto):
+        return imposto.calcula(orcamento)
 
 
 if __name__ == '__main__':
@@ -15,4 +15,3 @@ if __name__ == '__main__':
 
     print(calculador.realiza_calculo(orcamento, ISS()))
     print(calculador.realiza_calculo(orcamento, ICMS()))
-
